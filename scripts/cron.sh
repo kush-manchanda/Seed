@@ -6,8 +6,8 @@
 
 #######################################
 
-TARGET=/home/pi/MVP
-PYTHON=$TARGET/python
+TARGET=/home/pi/Seed
+PYTHON=$TARGET/Python
 
 # Declarations
 RED='\033[31;47m'
@@ -27,5 +27,5 @@ error_exit()
 
 timestamp="$(date +"%D %T")"
 
-crontab /home/pi/MVP/scripts/MVP_cron.txt || error_exit "Failure loading Cron"
+crontab /home/pi/Seed/scripts/Seed_cron.txt || error_exit "Failure loading Cron"
 echo $(date +"%D %T") "Cron loaded"
