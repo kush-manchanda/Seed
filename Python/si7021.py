@@ -16,7 +16,8 @@ GPIO.setmode(GPIO.BOARD)
 GPIO.setup(7, GPIO.OUT)
 GPIO.output(7, GPIO.LOW)
 
-print("Pin 7 is now low")
+# Pin connections- 3v - Pin 1 and GND - Pin 7. SDA to 3 and SCL to 5
+#print("Pin 7 is now low")
 
 
 # Device I2C address
