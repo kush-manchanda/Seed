@@ -16,7 +16,7 @@ def buildEnv():
     buildLocation()
     # Add experiment
     loadDict('exp', 'experiment_1')    
-    buildReservoir()
+    #buildReservoir()
     saveEnv(env)
 
 def buildMac():    
@@ -52,7 +52,7 @@ def test():
     print("longitude: ", env.env['location']['longitude'])
     print("mac: ", env.env['mac'])    
     print("exp: ", env.env['exp'])
-    print("reservoir: ", env.env['reservoir'])
+    #print("reservoir: ", env.env['reservoir'])
     
     
 if __name__=="__main__":

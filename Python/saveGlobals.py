@@ -2,8 +2,8 @@
 # A python file is generated that is 'read' by the logging program.
 import os
 
-env_file = '/home/pi/MVP/python/env.py'
-var_file = '/home/pi/MVP/python/variable.py'
+env_file = '/home/pi/Seed/python/env.py'
+var_file = '/home/pi/Seed/python/variable.py'
 
 def saveDict(name, file_name, dict):
     #print(values)

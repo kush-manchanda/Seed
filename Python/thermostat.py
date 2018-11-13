@@ -1,7 +1,5 @@
 #thermostat.py
 #controlls the exhaust fan, turns it on when temperature is over the target temperature
-#Fan is assumed to be wired to Pin 33 (GPIO 13)
-#Pin 30 may control a relay or be a transistor switch, assumes HIGH means ON
 
 import RPi.GPIO as GPIO
 from logData import logData

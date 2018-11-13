@@ -10,7 +10,7 @@ from saveGlobals import saveVars
 env={}
 
 def buildVars():
-    env={'targetTemp': 24, 'priorFanOn': True}
+    env={'targetTemp': 24, 'priorFanOn': True} #Enter target temperature for Seed
     saveVars(env)
 
 def loadDict(name, value):
